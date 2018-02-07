@@ -32,8 +32,10 @@ Realiza peticiones sincrónicas enviadas por un proceso dentro de un número de 
 Impone tiempos de caducidad (deadline) a todas las operaciones de Entrada/Salida a fin de impedir que se agote la capacidad de recibir peticiones. Utiliza cinco colas de procesamiento, dos de las cuales son ordenadas de acuerdo a los tiempos de caducidad, al mismo tiempo que las colas de procesamiento son ordenadas de acuerdo a su número de sector.
 
 
-#### Noop :
+#### * Noop :
 Es un planificador muy simple; Funciona insertando todas las peticiones de Entrada/Salida dentro de una cola de procesamiento tipo FIFO (first in, first out) e implementando fusión de peticiones.
+
+
 
 
 ### Como utilizarlos de buena manera :
